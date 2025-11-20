@@ -48,7 +48,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-muted" style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>Email</p>
-                                    <a href="mailto:hello@alexsterling.dev" className="font-medium hover:text-primary transition-colors" style={{ fontWeight: '500', transition: 'color 0.2s' }}>hello@alexsterling.dev</a>
+                                    <a href="mailto:furkan.uluay@outlook.com" className="font-medium hover:text-primary transition-colors" style={{ fontWeight: '500', transition: 'color 0.2s' }}>furkan.uluay@outlook.com</a>
                                 </div>
                             </div>
 
@@ -58,7 +58,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-muted" style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>Phone</p>
-                                    <p className="font-medium">+1 (555) 123-4567</p>
+                                    <p className="font-medium">Available on LinkedIn</p>
                                 </div>
                             </div>
 
@@ -68,7 +68,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-muted" style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>Location</p>
-                                    <p className="font-medium">San Francisco, CA</p>
+                                    <p className="font-medium">Istanbul, Turkey</p>
                                 </div>
                             </div>
                         </div>

@@ -64,7 +64,7 @@ const Navbar = () => {
                 <div className="container flex justify-between items-center" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: '1200px', margin: '0 auto' }}>
                     <a href="#" className="logo flex items-center gap-2" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--text-main)' }}>
                         <Code2 color="var(--primary)" />
-                        <span>Alex<span style={{ color: 'var(--primary)' }}>.dev</span></span>
+                        <span>Furkan <span style={{ color: 'var(--primary)' }}>Uluay</span></span>
                     </a>
 
                     {/* Desktop Nav */}
