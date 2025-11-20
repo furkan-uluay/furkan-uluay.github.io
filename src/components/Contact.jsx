@@ -48,7 +48,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-muted" style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>Email</p>
-                                    <a href="mailto:furkan.uluay@outlook.com" className="font-medium hover:text-primary transition-colors" style={{ fontWeight: '500', transition: 'color 0.2s' }}>furkan.uluay@outlook.com</a>
+                                    <a href={`mailto:${portfolioData.contact.email}`} className="font-medium hover:text-primary transition-colors" style={{ fontWeight: '500', transition: 'color 0.2s' }}>{portfolioData.contact.email}</a>
                                 </div>
                             </div>
 
@@ -58,7 +58,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-muted" style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>Phone</p>
-                                    <p className="font-medium">Available on LinkedIn</p>
+                                    <p className="font-medium">{portfolioData.contact.phone}</p>
                                 </div>
                             </div>
 
@@ -68,7 +68,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-muted" style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>Location</p>
-                                    <p className="font-medium">Istanbul, Turkey</p>
+                                    <p className="font-medium">{portfolioData.contact.location}</p>
                                 </div>
                             </div>
                         </div>

@@ -58,5 +58,10 @@ export const portfolioData = {
     github: "https://github.com/furkan-uluay",
     linkedin: "https://www.linkedin.com/in/furkan-uluay",
     twitter: "https://twitter.com"
+  },
+  contact: {
+    email: "furkan.uluay@outlook.com",
+    phone: "Available on LinkedIn",
+    location: "Istanbul, Turkey"
   }
 };
